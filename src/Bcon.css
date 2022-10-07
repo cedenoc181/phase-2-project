@@ -1,0 +1,150 @@
+#BracketFinals {
+  padding-top: 35px;
+  padding-left: 400px;
+  position: absolute;
+  font-size: 30px;
+text-decoration: underline rgb(189, 185, 190);
+font-family: FOT-RodinBokutohPro-UB;
+}
+
+.BracketChampion {
+  position: absolute;
+  padding-left: 583px;
+  padding-top: 180px;
+  font-size: 30px;
+  text-decoration: underline rgb(189, 185, 190);
+  font-family: FOT-RodinBokutohPro-UB;
+}
+
+.bracket-Name {
+  cursor: pointer;
+  font-family:Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: white;
+}
+
+.Bcontainer {
+  width: 800px;
+  height: 600px;
+  float: left;
+  border-style: solid;
+  border-color: rgb(216, 27, 27);
+  background: #1d1d1ec5;
+  color:white;
+  -webkit-text-stroke-width: .8px;
+     -webkit-text-stroke-color: rgb(216, 207, 207);
+}
+
+.bracket-card {
+  padding-bottom: 15px;
+}
+
+section {
+  margin-bottom: 3px;
+  width: 130px;
+  height: 520px;
+  float: left;
+}
+
+section > div {
+  border-radius: 15px;
+  width: 100px;
+  height: 23px;
+  border: 1.5px solid rgb(216, 27, 27);
+  margin: 10px 0;
+  background: #494953c5;
+  color: white;
+  font-family: arial;
+  padding: 10px 10px 10px 20px;
+}
+
+section > div:nth-child(2n) {
+  margin-bottom: 15px;
+}
+
+.connecter {
+  width: 30px;
+  height: 520px;
+  float: left;
+}
+
+.line {
+  width: 30px;
+  height: 520px;
+  float: left;
+
+}
+
+.connecter div {
+  border: 1px solid rgb(255, 255, 255);
+  border-left: none;
+  height: 48px;
+  width: 100%;
+  margin: 80px 0 0 1px;
+  
+}
+
+.connecter div:first-child {
+  margin: 35px 0 0 1px;
+}
+
+.line div {
+  border-top: 1px solid rgb(255, 255, 255);
+  margin: 134px 0 0 1px;
+}
+
+.line div:first-child {
+  margin-top: 55px;
+}
+
+#quarterFinals > div {
+  margin-top: 91px;
+}
+
+#quarterFinals > div:first-child {
+  margin-top: 37px;
+}
+
+#conn2 div {
+  margin-top: 133px;
+  height: 133px;
+}
+
+#conn2 div:first-child {
+  margin-top: 57px;
+}
+
+#line2 div {
+  margin-top: 270px;
+}
+
+#line2 div:first-child {
+  margin-top: 125px;
+}
+#semiFinals > div {
+  margin-top: 230px;
+}
+#semiFinals > div:first-child {
+  margin-top: 105px;
+}
+#conn3 div {
+  margin-top: 125px;
+  height: 270px;
+}
+
+#line3 div {
+  margin-top: 270px;
+}
+
+#final > div {
+  margin-top: 250px;
+}
+.select{
+  border-style: solid;
+  border-color:red;
+  border-radius: 15px;
+  width: 90px;
+  height: 23px;
+
+}
+

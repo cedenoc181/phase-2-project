@@ -1,0 +1,66 @@
+.brackethome{
+   background-color: black;
+  
+   background-image:url("./imageedit_2_7266512155.png");
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+   
+}
+
+#Bracket-header{
+   text-align: center;
+   margin-top: 0;
+   font-size: 45px;
+   font-weight: bold;
+   color: goldenrod;
+   font-family: FOT-RodinBokutohPro-UB;
+   -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+}
+
+
+
+.TformCon {
+   margin-left: 1200px;
+   border-width:2px;
+border-style:solid;
+border-color:rgb(216, 27, 27);
+background: #1a1a1bc5;
+color:white;
+
+}
+.form {
+   width: 550px;
+   height: 450px;
+   margin-top: 30px;
+   position: relative;
+
+}
+
+.footer {
+   margin-bottom: 100px;
+   margin-left: 150px;
+  display:inline-block;
+}
+
+.formName {
+   text-decoration: underline;
+}
+
+ .formState{
+   text-decoration: underline;
+   font-style: italic;   
+}
+.State {
+   font-weight: bold;
+}
+/* .asideForm{
+   background-color: bisque;
+} */
+
+.bracket-logo {
+   width: 180px;
+   height: 100px;
+}

@@ -3,7 +3,7 @@ import Tcard from './Tcard'
 
 function Tcontainer({charactersArr}) {
   return (
-    <div>
+    <div className="t-container">
         {charactersArr.map((character) => (
         <Tcard key= {character.OwnerId} character={character}/>
         ))}

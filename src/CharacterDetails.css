@@ -1,0 +1,9 @@
+.characterDetails {
+   width: 100%;
+}
+
+.space-background {
+    background-image:url("https://www.smashbros.com/assets_v2/img/stage/stage_img39.jpg");
+    background-size: cover;
+    height: 100vh;
+}

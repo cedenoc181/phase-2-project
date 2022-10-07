@@ -1,24 +1,31 @@
 import React from "react";
 import Tcontainer from "./Tcontainer";
-import TsubmitForm from "./TsubmitForm";
-import Search from "./Search";
-import FormContainer from "./FormContainer";
+import "./tournament.css"
 
 
 
-function Tournament({ charactersArr }) {
+function Tournament({ charactersArr}) {
   return (
-    <div>
-      <h1 className="Tournament-header">Tournament</h1>
-      <div className="">
-        
+    <div className="Tournament">
+
+      <div className="Tournamet-body">
+      <h1 className="Tournament-title">Tournament</h1>
+      <div className="Tvideo">
+      <iframe width="485" height="230" 
+      src="https://www.youtube.com/embed/bHjX3-8aRPU"
+       title="YouTube video player" 
+       frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
       </div>
-      <Search />
-      <Tcontainer charactersArr={charactersArr} />
-      <FormContainer />
-      <TsubmitForm />
-      
      
+      <Tcontainer charactersArr={charactersArr} />
+      {/* <TFormContainer usernameArr={usernameArr} /> */}
+      
+      
+
+      
+      </div>
     </div>
   );
 }

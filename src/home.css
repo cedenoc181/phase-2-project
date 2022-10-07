@@ -1,0 +1,141 @@
+
+  .login-btn{
+    margin-left: 1350px;
+  height: 25px;
+  width: 50px;
+  background-color: rgba(217, 166, 238, 0.824);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  }
+  .login-btn:hover, .login-btn:focus {
+    border: 1.5px solid hsl(180, 100%, 100%);
+    background-color:  hsl(174, 100%, 29%);
+  }
+  
+  .welcome{
+    text-decoration: underline;
+    margin-left: 1150px;
+    font-size: 28px;
+    font-weight: bold;
+    color:aliceblue;
+    font-family: FOT-RodinBokutohPro-UB;
+    -webkit-text-stroke-width: .4px;
+    -webkit-text-stroke-color: rgb(187, 153, 203);
+  }
+  .logo {
+    width: 280px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  
+  .title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: FOT-RodinBokutohPro-UB;
+    -webkit-text-stroke-width: .8px;
+      -webkit-text-stroke-color: white;
+  }
+  .scrollmenu {
+    display:inline-block;
+  }
+  .Hcard {
+    display: inline;
+  }
+.Hcontainer {
+    display:flex;
+    overflow-y: hidden;
+    cursor: pointer;
+  }
+  .homePage {
+    text-align: center;
+    background-color: black;
+    background-image:url("https://tk7.tekken.com/assets/images/common/flare-desktop.png"), url("https://tk7.tekken.com/assets/images/common/effects-desktop.png");
+    background-size: cover;
+    height: 100vh;
+  }
+  .character-img{
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 15%;
+  }
+
+  .character-img:hover {
+    transform: scale(1);
+    border: 2px solid white;
+    box-shadow: 1px 4px 30px white;
+    cursor: pointer;
+}
+  .form {
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 2000px;
+    margin-top: 10px;
+   
+}
+.hide-text{
+  color: rgb(0, 0, 0, 0)
+}
+.newsCard{
+  /* -webkit-animation: slider linear 5s; */
+  border: 2px rgb(4, 3, 3) solid;
+  float: left;
+  width: 100px;
+  margin-left: 90px;
+  margin-top: 30px;
+  white-space: wrap;
+  animation: slider linear 10s;
+  width: 350px;
+  border-style: solid;
+  background-color:rgba(165, 42, 42, 0.327);
+}
+.newsCard:hover {
+  border: 2px solid hsl(174, 100%, 29%);
+  background-color: white;
+  box-shadow: 1px 4px 30px rgb(9, 8, 8);
+}
+.newsCard2:hover{
+  border: 2px solid hsl(174, 100%, 29%);
+  background-color: white;
+  box-shadow: 1px 4px 30px rgb(4, 4, 4);
+}
+/* @-webkit-keyframes slider {
+  from {width: 500px;}
+  to {width: 0px;}
+}
+@keyframes slider {
+  from {width: 500px;}
+  to {width: 300px;}
+} */
+.newsCard2{
+  display: inline-block;
+  /* float: right; */
+  width: 350px;
+  border-style: solid;
+  background-color:rgba(165, 42, 42, 0.327);
+}
+.line-through {
+  text-decoration: solid;
+}
+.newsImage{
+  display: flex;
+
+  margin-left: 0px;
+  width: 350px;
+  height: 300px;
+}
+.newsTitle{
+  font-weight: bold;  
+  font-size: 40px;
+  font-family: FOT-RodinBokutohPro-UB;
+  -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration: black;
+
+}
+

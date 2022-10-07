@@ -1,15 +1,16 @@
 import React from 'react'
+import "./Bracket.css"
 
-function FormCard() {
+function FormCard({username}) {
   return (
  <div className="formCard">
-    <li className="formListRow">
-<h6 className="formUsername">
+    <li className="formListRow" >
+<h3 className="formName">
+{username.first_name}, {username.last_name}
+</h3>
+<p>{username.country}</p>
+    {/* <img className="State" src= {username.adata.avatar} alt=""/> */}
 
-</h6>
-<p className="formCharacter">
-
-</p>
     </li>
  </div>
   )

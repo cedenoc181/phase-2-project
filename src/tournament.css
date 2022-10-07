@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+.t-container {
+    display: flex;
+    overflow-x: scroll;
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.Tcard-img {
+    height: 200px;
+  }
+  .Tcard-img:hover {
+    transform: scale(1);
+    border: 2px solid white;
+    box-shadow: 1px 4px 30px white;
+    cursor: pointer;
+}
+.Tbody {
+    position: fixed;
+    bottom: 0;
+}
+.Tournament{
+    background-image:url("https://www.smashbros.com/assets_v2/img/stage/stage_img24.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 56vw;
+    width: 90em;
+}
+  .Tournament-title {
+    text-align: center;
+    position: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: FOT-RodinBokutohPro-UB;
+    -webkit-text-stroke-width: .8px;
+      -webkit-text-stroke-color: white;
+      margin-top: 0;
+}
+/* .form {
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 2000px;
+    margin-top: 10px;
+   
+} */
+/* .character {
+    position: absolute;
+    height: 12%;
+    top: 23%;
+ }
+.left {
+    left: 25%;
+}
+.right {
+    right: 25%;
+} */
+.SearchBar{
+    margin-top: 60px;
+    text-align: center;
+}
+.Tvideo{
+    margin-top: 48px;
+    text-align: center;
+}
+

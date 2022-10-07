@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Karlyn",
+      "last_name": "Ysson",
+      "country": "Brazil"
+    },
+    {
+      "id": 2,
+      "first_name": "Bobbie",
+      "last_name": "Clack",
+      "country": "Indonesia"
+    },
+    {
+      "id": 3,
+      "first_name": "Urson",
+      "last_name": "McCrachen",
+      "country": "Brazil"
+    },
+    {
+      "id": 4,
+      "first_name": "Mellie",
+      "last_name": "Powney",
+      "country": "Colombia"
+    },
+    {
+      "id": 5,
+      "first_name": "Nettie",
+      "last_name": "Ward",
+      "country": "Philippines"
+    },
+    {
+      "id": 6,
+      "first_name": "Avis",
+      "last_name": "McCuis",
+      "country": "Greece"
+    }
+  ]
+}
